@@ -4,7 +4,7 @@
     - index.html
     - .gitignore
     - main.css (bet ne vienintelis)
-- [] atlikti dizaino analize
+- [x] atlikti dizaino analize
 - [] surasyti HTML
 - [] issikirpti nuotraukas ir jas panaudoti
     - panaudoti reliatyvu kelia
