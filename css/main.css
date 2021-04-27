@@ -3,7 +3,7 @@ body * {
     margin: 0;
     padding: 0;
     vertical-align: top;
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -14,35 +14,31 @@ body {
 .container {
  display: inline-block;
  width: 800px;
- margin-top: 100px;
- margin-left: calc(100% - 800px) / 2;
+ margin: 100px calc((100% - 800px) / 2) 0;
 
 }
 
 .left-column {
-display: inline-block;
 width: 40%;
 float: left;
-background-color: yellow;
+padding: 40px;
+background-color: #4c46a5;
+color: #fff;
 }
 
 .main-title {
 
 }
 
-.bottom-link {
+.bottom-links {
 
 }
 
-.bottom-link > a {
-
+.bottom-links > a {
+    color: #fff;
 }
 
-.bottom-link > a {
-    
-}
-
-.bottom-link > span {
+.bottom-links > span {
 
 }
 
@@ -51,7 +47,7 @@ background-color: yellow;
  width: 60%;
  padding: 60px;
  float: left;
- background-color: blueviolet;
+background-color: #fff;
 }
 
 .close {
@@ -59,5 +55,63 @@ background-color: yellow;
 }
 
 .form {
+display: inline-block;
+width: 100%;
+}
+
+.form-row {
+display: inline-block;
+width: 100%;
+}
+
+.form-row + .form-row {
+    margin-top: 40px;
+}
+
+label {
+display: inline-block;
+width: 100%;
+color: #999;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+}
+
+input {
+display: inline-block;
+width: 100%;
+font-size: 20px;
+line-height: 1,8em;
+border: none;
+border-bottom: 1px solid #999;
+}
+
+button {
+float: left;
+padding: 10px 30px;
+padding-left: 30px;
+padding-right: 30px;
+background-color: royalblue;
+border: 1px solid rgb(15, 59, 190);
+color: #fff;
+font-size: 18px;
+line-height: 20px;
+border-radius: 21px;
+
+
+}
+
+.form-row > span {
+    float: left;
+    padding: 11px;
+    line-height: 20px;
+}
+
+.form-row > a {
+    float: left;
+    text-decoration: none;
+    padding: 11px;
+    line-height: 20px;
 
 }
