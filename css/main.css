@@ -119,9 +119,12 @@ input {
   border-bottom: 1px solid #999;
 }
 
-::placeholder {
-  color: #999;
-  font-style: italic;
+input:focus {
+  background-color: rgb(219, 227, 231);
+}
+
+input:focus-visible {
+  outline-color: rgb(223, 223, 223);
 }
 
 button {
@@ -137,6 +140,11 @@ button {
   border-radius: 21px;
 }
 
+button:hover {
+  background-color: rgb(131, 149, 201);
+  cursor: pointer;
+}
+
 .form-row > span {
   float: left;
   padding: 11px;
@@ -148,4 +156,8 @@ button {
   text-decoration: none;
   padding: 11px;
   line-height: 20px;
+}
+
+.form-row > a:hover {
+  text-decoration: underline;
 }
