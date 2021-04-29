@@ -25,4 +25,5 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 
 ## Authors
 
-[Sarunas](https://github.com/SarunasDov)
+[Github](https://github.com/SarunasDov)
+[Linkedin](linkedin.com/in/sarunas-dovydaitis-7a5644174)
